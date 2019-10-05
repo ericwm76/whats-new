@@ -9,7 +9,7 @@ const NewsArticle = (props) => {
       <img src={props.img} alt=""/>
       <p>{props.description}</p>
       <a href={props.url} target="_blank" rel="noopener noreferrer">Link to Article</a>
-      <button onClick={}>X</button>
+      <button onClick="">X</button>
     </article>
   )
 }

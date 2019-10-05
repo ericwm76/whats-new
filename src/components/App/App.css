@@ -5,7 +5,7 @@
 }
 
 .app {
-  display: flex;
+  /* display: flex; */
   background: #ffffff;
   height: 100vh;
   text-align: center;
