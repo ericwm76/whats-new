@@ -11,9 +11,18 @@ import Menu from '../Menu/Menu'
 class App extends Component {
   constructor() {
     super();
+    this.local = local;
+    this.science = science;
+    this.technology = technology;
+    this.health = health;
+    this.entertainment = entertainment;
     this.state = {
-      local, entertainment, health, science, technology
+      current: local
     }
+  }
+
+  changeSelectedNews = (e) => {
+    this.setState({ current: this[e.target.name]})
   }
 
   render () {
@@ -22,13 +31,9 @@ class App extends Component {
         <header>
           <h1>What's New?</h1>
         </header>
-        <Menu />
+        <Menu changeSelectedNews={this.changeSelectedNews}/>
         <NewsContainer 
-          local={this.state.local} 
-          entertainment={this.state.entertainment} 
-          health={this.state.health} 
-          science={this.state.science} 
-          technology={this.state.technology}
+          current={this.state.current}
         />
       </div>
     );

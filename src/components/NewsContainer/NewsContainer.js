@@ -2,9 +2,9 @@ import React from 'react';
 import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle'
 
-const NewsContainer = ({local}) => {
+const NewsContainer = ({ current }) => {
   return (
-    local.map(article => {
+    current.map(article => {
       return (
         <NewsArticle
           headline={article.headline} 

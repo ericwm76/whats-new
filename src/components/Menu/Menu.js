@@ -1,22 +1,18 @@
 import React from 'react';
+import App from '../App/App';
 import './Menu.css'
 
-class Menu extends React.Component {
-  constructor() {
-    super();
-  }
+const Menu = ({ changeSelectedNews }) => {
+  return (
+    <section>
+      <button name="local" onClick={ e => changeSelectedNews(e) }>Local</button>
+      <button name="entertainment" onClick={ e => changeSelectedNews(e) }>Entertainment</button>
+      <button name="health" onClick={ e => changeSelectedNews(e) }>Health</button>
+      <button name="science" onClick={ e => changeSelectedNews(e) }>Science</button>
+      <button name="technology" onClick={ e => changeSelectedNews(e) }>Technology</button>
+    </section>
+  )
+} 
 
-  render() {
-    return (
-      <section>
-        <h2>Local</h2>
-        <h2>Entertainment</h2>
-        <h2>Health</h2>
-        <h2>Science</h2>
-        <h2>Technology</h2>
-      </section>
-    )
-  }
-}
 
 export default Menu;
