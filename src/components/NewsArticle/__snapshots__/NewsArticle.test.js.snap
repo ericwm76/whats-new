@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsArticle should match the snapshot 1`] = `
+<article
+  className="news-article"
+>
+  <h3>
+    Harry Potter
+  </h3>
+  <img
+    alt=""
+    src="hogwarts"
+  />
+  <p>
+    Wizarding is cool
+  </p>
+  <a
+    href="https://www.wizardingworld.com/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Link to Article
+  </a>
+</article>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should match the snapshot 1`] = `
+<div
+  className="main"
+>
+  <NewsArticle
+    description="as a young man"
+    headline="James joyce"
+    img="portrait of the artist"
+    key="0"
+  />
+  <NewsArticle
+    description="Wizarding is cool"
+    headline="Harry Potter"
+    img="hogwarts"
+    key="1"
+  />
+</div>
+`;
