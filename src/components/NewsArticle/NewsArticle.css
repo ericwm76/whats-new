@@ -1,8 +1,8 @@
 .news-article {
-  background-color: #ffffff;
+  background-color: #9BDCFF;
+  border: 1px solid black;
+  border-radius: 5px;
   display: inline-block;
-  /* height: 250px;
-  width: 30%; */
 }
 
 img {
