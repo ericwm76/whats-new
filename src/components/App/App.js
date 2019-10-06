@@ -7,6 +7,7 @@ import technology from '../../data/technology';
 import './App.css';
 import NewsContainer from '../NewsContainer/NewsContainer';
 import Menu from '../Menu/Menu'
+import SearchForm from '../SearchForm/SearchForm';
 
 class App extends Component {
   constructor() {
@@ -25,12 +26,17 @@ class App extends Component {
     this.setState({ current: this[e.target.name]})
   }
 
+  searchNews = () => {
+
+  }
+
   render () {
     return (
       <div className="app">
         <header>
           <h1>What's New?</h1>
         </header>
+        <SearchForm searchNews={this.searchNews}/>
         <Menu changeSelectedNews={this.changeSelectedNews}/>
         <NewsContainer 
           current={this.state.current}
