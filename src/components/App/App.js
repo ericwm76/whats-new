@@ -34,9 +34,7 @@ class App extends Component {
   render () {
     return (
       <div className="app">
-        <header>
-          <h1>What's New?</h1>
-        </header>
+        <h1 className="page-title">What's New?</h1>
         <SearchForm searchNews={this.searchNews}/>
         <Menu changeSelectedNews={this.changeSelectedNews}/>
         <NewsContainer 

@@ -3,8 +3,7 @@ import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle'
 
 const NewsContainer = ({ current }) => {
-  return (
-    current.map((article, i) => {
+  const articles = current.map((article, i) => {
       return (
         <NewsArticle
           headline={article.headline} 
@@ -16,7 +15,11 @@ const NewsContainer = ({ current }) => {
         />
       )
     })
-  )
+  return (
+    <div className="main">
+      {articles}
+    </div>
+  )  
 }
 
 export default NewsContainer;

@@ -27,7 +27,7 @@ class SearchForm extends Component {
 
   render() {
     return (
-      <header>
+      <form className="search-form">
         <input 
           type="text" 
           name="search" 
@@ -35,14 +35,14 @@ class SearchForm extends Component {
           placeholder="Search by title or description" 
           onChange={this.handleChange}
           onKeyDown={this.handleEnterKey} 
-        />
+          />
         <button 
           type="button"
           onClick={this.handleSubmit}
           >
           Search
         </button>
-      </header>
+      </form>
     )
   }
 }

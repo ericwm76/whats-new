@@ -1,0 +1,5 @@
+.search-form {
+  grid-area: search-form;
+  display: flex;
+  justify-content: flex-end;
+}

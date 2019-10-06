@@ -5,9 +5,18 @@
 }
 
 .app {
-  /* display: flex; */
+  display: grid;
   background: #ffffff;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas: 
+    'title search-form'
+    'menu main';
   height: 100vh;
   text-align: center;
   width: 100%;
+}
+
+.page-title {
+  grid-area: title;
 }

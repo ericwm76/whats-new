@@ -3,7 +3,7 @@ import './Menu.css'
 
 const Menu = ({ changeSelectedNews }) => {
   return (
-    <section>
+    <section className="menu">
       <button name="local" onClick={ e => changeSelectedNews(e) }>Local</button>
       <button name="science" onClick={ e => changeSelectedNews(e) }>Science</button>
       <button name="technology" onClick={ e => changeSelectedNews(e) }>Technology</button>
