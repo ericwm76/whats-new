@@ -26,8 +26,9 @@ class App extends Component {
     this.setState({ current: this[e.target.name]})
   }
 
-  searchNews = () => {
-
+  searchNews = (term) => {
+    const articles = [...local, ...science, ...technology, ...health, ...entertainment];
+    this.setState({ current: (articles.filter(article => article.headline.toLocaleLowerCase().includes(term) || article.description.toLocaleLowerCase().includes(term)))})
   }
 
   render () {
