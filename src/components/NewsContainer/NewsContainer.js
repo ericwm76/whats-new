@@ -4,7 +4,7 @@ import NewsArticle from '../NewsArticle/NewsArticle'
 
 const NewsContainer = ({ current }) => {
   return (
-    current.map(article => {
+    current.map((article, i) => {
       return (
         <NewsArticle
           headline={article.headline} 
@@ -12,7 +12,7 @@ const NewsContainer = ({ current }) => {
           description={article.description}
           url={article.url}
           id={article.id}
-          key={article.id}
+          key={i}
         />
       )
     })
