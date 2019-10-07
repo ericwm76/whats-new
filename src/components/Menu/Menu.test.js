@@ -5,6 +5,7 @@ import Menu from './Menu';
 describe('Menu', () =>{
   let wrapper;
   const mockChangeSelectedNews = jest.fn();
+  
   beforeEach(() => {
     wrapper = shallow(<Menu changeSelectedNews={mockChangeSelectedNews}/>)
   })
