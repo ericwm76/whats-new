@@ -4,7 +4,12 @@
 
 What's New is a to-do-list-style newsfeed app I developed during my third module at the Turing School of Software and Design. It provides a clean, simple user interface for displaying and searching news articles in various categories.
 
-This application was built with `create-react-app`.
+### Languages & Technologies Used
+
+React
+CSS
+Webpack
+Jest and Enyzme testing suite
 
 ### Screenshots
 
@@ -35,4 +40,4 @@ To view the Whats New? application, run:
 
 Then navigate to your browser:
 
-`http://localHost:8080/`
+`http://localHost:8080/` (the number 8080 in this example may be different on your machine)
