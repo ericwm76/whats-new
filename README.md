@@ -20,3 +20,19 @@ The learning goals for this project were to:
 - Use propTypes for every component receiving props.
 - Learn how to unit test React components including snapshot testing, methods, and changes in state.
 
+### Set Up
+On the top right corner of this page, click the Fork button.
+
+Clone down the forked repo (from your GitHub)
+
+Once you have cloned the repo, change into the directory and install the library dependencies. Run:
+
+`npm install`
+
+To view the Whats New? application, run:
+
+`npm start`
+
+Then navigate to your browser:
+
+`http://localHost:8080/`
