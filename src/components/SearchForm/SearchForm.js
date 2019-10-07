@@ -29,6 +29,7 @@ class SearchForm extends Component {
     return (
       <form className="search-form">
         <input 
+          className="search-input"
           type="text" 
           name="search" 
           value={this.state.searchInput} 
@@ -37,6 +38,7 @@ class SearchForm extends Component {
           onKeyDown={this.handleEnterKey} 
           />
         <button 
+          className="submit-btn"
           type="button"
           onClick={this.handleSubmit}
           >

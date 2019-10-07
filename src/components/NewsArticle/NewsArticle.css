@@ -1,11 +1,22 @@
 .news-article {
-  background-color: #9BDCFF;
+  background-color: rgb(215, 241, 255);
   border: 1px solid black;
   border-radius: 5px;
   display: inline-block;
 }
 
+h3, p, a {
+  margin: 10px;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
 img {
-  height: 100px;
-  width: 100px;
+  width: 100%;
+}
+
+a {
+  display: inline-block;
 }

@@ -1,5 +1,29 @@
 .search-form {
-  grid-area: search-form;
+  align-items: center;
   display: flex;
+  grid-area: search-form;
   justify-content: flex-end;
+  justify-self: end;
+  width: 50%;
 }
+
+.search-input {
+  background-color: rgb(215, 241, 255);
+  border: 1px solid black;
+  border-radius: 5px 0 0 5px;
+  font-size: 1em;
+  height: 50px;
+  padding: 3px;
+  width: 60%;
+}
+
+.submit-btn {
+  background-color: rgb(215, 241, 255);
+  border: 1px solid black;
+  border-radius: 0 5px 5px 0;
+  font-size: 1em;
+  height: 50px;
+  margin-right: 10px;
+  width: 40%;
+}
+

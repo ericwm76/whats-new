@@ -5,19 +5,26 @@
 }
 
 .app {
+  background: #012f4b;
+  background-size: cover;
   display: grid;
-  background: #034168;
   grid-template-columns: 200px 1fr;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-areas: 
     'title search-form'
     'menu main';
-  height: 100vh;
+  height: auto;
+  padding: 10px;
   text-align: center;
   width: 100%;
 }
 
 .page-title {
-  color: #FF964C;
+  color: rgb(215, 241, 255);
+  font-size: 55px;
   grid-area: title;
+}
+
+.new {
+  color: #FF964C;
 }
