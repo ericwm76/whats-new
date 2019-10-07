@@ -1,0 +1,11 @@
+.news-article {
+  background-color: #9BDCFF;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}

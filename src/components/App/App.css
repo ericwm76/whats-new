@@ -5,9 +5,19 @@
 }
 
 .app {
-  display: flex;
-  background: #141527;
+  display: grid;
+  background: #034168;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas: 
+    'title search-form'
+    'menu main';
   height: 100vh;
   text-align: center;
   width: 100%;
+}
+
+.page-title {
+  color: #FF964C;
+  grid-area: title;
 }
