@@ -10,4 +10,13 @@ This application was built with `create-react-app`.
 
 ![What's New screenshot](https://user-images.githubusercontent.com/27085714/66286862-ce108780-e8c2-11e9-9c1f-c75591e5a205.gif)
 
-### Set Up
+### Learning Goals
+
+The learning goals for this project were to: 
+
+- Write squeaky clean, well refactored code using ES6 syntax.
+- Learn to pass information between components using props.
+- Learn to write readable JSX.
+- Use propTypes for every component receiving props.
+- Learn how to unit test React components including snapshot testing, methods, and changes in state.
+
